@@ -30,5 +30,12 @@ Technologies/Tools Used--
 Installation & Execution
 1. Clone the Repository**
    ```bash
-   git clone [https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git](https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git)
+   Compile source files into bin directory
+javac -d bin src/com/tracker/*.java src/com/tracker/*/*.java
+
+Run CLI Application
+java -cp bin com.tracker.Main
+
+ Run Unit Tests with assertions enabled
+java -ea -cp bin com.tracker.test.ExpenseTrackerTest
    
