@@ -4,7 +4,7 @@ Project Title-----
 Personal Expense & Budget Tracking Engine
 
 description of the Project
-The Personal Expense & Budget Tracking Engine is a modular CLI application written in Java. It allows users to manage personal finances by logging daily income and expenses, establishing monthly category budget limits, tracking budget utilization alerts, and exporting transaction records to CSV files. and as it is tough to moderate project it took me around 15 days to complete it 
+The Personal Expense & Budget Tracking Engine is a modular CLI application written in Java. It allows users to manage personal finances by logging daily income and expenses, establishing monthly category budget limits, tracking budget utilization alerts, and exporting transaction records to CSV files. 
 
 Features
 - Transaction Logging**: Record income and expense entries with automatic timestamps, amounts, categories, and descriptions.
