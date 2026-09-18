@@ -17,7 +17,7 @@ Technologies/Tools Used--
 - Programming Language**: Java (JDK 8 or higher)
 - 
 - Development Environment**: IntelliJ IDEA
-- 
+  
 - Version Control System**: Git & GitHub
 - 
 - Execution Environment**: Command Line Interface (CLI) via Java Virtual Machine
@@ -31,11 +31,11 @@ Installation & Execution
 
 1. Clone the Repository**
    ```bash
-   git clone https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git
-   cd PersonalExpenseTracker001
-   Compile Source Files
-   javac -d bin src/com/tracker/*.java src/com/tracker/*/*.java
-   Run CLI Application
-   java -cp bin com.tracker.Main
-   Run Unit Tests (with assertions enabled)
-   java -ea -cp bin com.tracker.test.ExpenseTrackerTest
+   java -version
+   git clone [https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git](https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git)
+cd PersonalExpenseTracker001
+javac -d bin src/com/tracker/*.java src/com/tracker/*/*.java
+java -cp bin com.tracker.Main
+java -ea -cp bin com.tracker.test.ExpenseTrackerTest
+
+
