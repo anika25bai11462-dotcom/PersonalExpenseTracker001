@@ -28,14 +28,14 @@ Technologies/Tools Used--
 - Java Development Kit (JDK 8+) installed on your local machine.
 
 Installation & Execution
+
 1. Clone the Repository**
    ```bash
-   Compile source files into bin directory
-javac -d bin src/com/tracker/*.java src/com/tracker/*/*.java
-
-Run CLI Application
-java -cp bin com.tracker.Main
-
- Run Unit Tests with assertions enabled
-java -ea -cp bin com.tracker.test.ExpenseTrackerTest
-   
+   git clone https://github.com/anika25bai11462-dotcom/PersonalExpenseTracker001.git
+   cd PersonalExpenseTracker001
+   Compile Source Files
+   javac -d bin src/com/tracker/*.java src/com/tracker/*/*.java
+   Run CLI Application
+   java -cp bin com.tracker.Main
+   Run Unit Tests (with assertions enabled)
+   java -ea -cp bin com.tracker.test.ExpenseTrackerTest
